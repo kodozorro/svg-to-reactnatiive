@@ -1,6 +1,6 @@
 {
   "name": "@kodozorro/svg-to-reactnative",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Help with converting SVG files to React Native SVG components",
   "main": "index.js",
   "bin": {
