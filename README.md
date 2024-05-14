@@ -4,7 +4,7 @@ Help with converting SVG files to React Native SVG components
 ## Instalation
 
 ```bash
-npm install svg-to-reactnative
+npm install -g @kodozorro/svg-to-reactnative
 ```
 
 ## Usage
@@ -12,7 +12,7 @@ npm install svg-to-reactnative
 After installation, you can use the svg-to-rn command to convert SVG files to React Native compatible SVG components. Provide the path to the directory containing your SVG files as an argument:
 
 ```bash
-svg-to-reactnative your/path/to/svg-icons
+svg-to-rn your/path/to/svg-icons
 ```
 
 Replace path/to/svg-icons with the path to your directory containing SVG files.
