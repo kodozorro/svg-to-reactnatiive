@@ -1,0 +1,7 @@
+/node_modules/
+/package-lock.json
+/.idea/jsLibraryMappings.xml
+/.idea/modules.xml
+/.idea/svg-to-reactnative.iml
+/.idea/vcs.xml
+/.idea/.gitignore

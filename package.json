@@ -1,0 +1,24 @@
+{
+  "name": "svg-to-reactnative",
+  "version": "1.0.0",
+  "description": "Help with converting SVG files to React Native SVG components",
+  "main": "index.js",
+  "bin": {
+    "svg-to-rn": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prettier": "^2.3.2",
+    "svgson": "^5.2.0"
+  },
+  "keywords": [
+    "svg",
+    "react-native",
+    "svgson",
+    "convert"
+  ],
+  "author": "kodozorro dmsikorskij@mail.ru",
+  "license": "ISC"
+}
