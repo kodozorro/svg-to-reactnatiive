@@ -1,4 +1,4 @@
-# svg-to-reactnatiive
+# svg-to-reactnative
 Help with converting SVG files to React Native SVG components
 
 ## Instalation
