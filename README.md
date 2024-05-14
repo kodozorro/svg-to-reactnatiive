@@ -33,11 +33,30 @@ The `svg-to-rn` command performs the following steps:
 4. **Format**: The script formats the converted content using `prettier` to ensure consistent code style.
 5. **Write Files**: The converted and formatted content is written back to files in the same directory, replacing the original files with `.js` for SVG files and maintaining `.tsx` for TSX files.
 
+## Example
+
+#### Before
+```html
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2929 19.7071C10.9024 19.3166 10.9024 18.6834 11.2929 18.2929L16.5858 13L5 13C4.44771 13 4 12.5523 4 12C4 11.4477 4.44771 11 5 11L16.5858 11L11.2929 5.70711C10.9024 5.31658 10.9024 4.68342 11.2929 4.29289C11.6834 3.90237 12.3166 3.90237 12.7071 4.29289L19.7071 11.2929C20.0976 11.6834 20.0976 12.3166 19.7071 12.7071L12.7071 19.7071C12.3166 20.0976 11.6834 20.0976 11.2929 19.7071Z" fill="#101828"/>
+</svg>
+```
+
+#### After
+```tsx
+<Svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <Path fillRule="evenodd"
+         clipRule="evenodd"
+         d="M11.2929 19.7071C10.9024 19.3166 10.9024 18.6834 11.2929 18.2929L16.5858 13L5 13C4.44771 13 4 12.5523 4 12C4 11.4477 4.44771 11 5 11L16.5858 11L11.2929 5.70711C10.9024 5.31658 10.9024 4.68342 11.2929 4.29289C11.6834 3.90237 12.3166 3.90237 12.7071 4.29289L19.7071 11.2929C20.0976 11.6834 20.0976 12.3166 19.7071 12.7071L12.7071 19.7071C12.3166 20.0976 11.6834 20.0976 11.2929 19.7071Z"
+         fill="#101828"
+   />
+</Svg>
+```
+
 ### Tag and Attribute Conversion
 
 The script performs the following conversions:
 
-**Tag Conversion:**
 **Tag Conversion:**
 
 | SVG Tag         | React Native SVG Tag |
